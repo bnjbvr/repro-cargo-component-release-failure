@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "./secret",
+    "./wit-log",
+]
+
+[workspace.dependencies]
+wit-bindgen = "0.6.0"
+wit-log = { path = "./wit-log" }

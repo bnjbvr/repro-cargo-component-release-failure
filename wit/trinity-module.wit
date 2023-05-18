@@ -1,0 +1,7 @@
+interface messaging {
+    init: func()
+}
+
+default world trinity-module {
+    export messaging: self.messaging
+}
